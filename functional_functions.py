@@ -1,11 +1,11 @@
-
+ai_model = "gpt-4o"
 from openai import OpenAI
 client = OpenAI(api_key="none",
-    base_url="http://51.195.176.136:8150")
+    base_url="")
 
 def llm_request(prompt):
     completion = client.chat.completions.create(
-      model="mistral-7b-instruct-v0.3",
+      model=ai_model,
       messages=[
     {"role": "system", "content": "You are an assistant made to help your client."},
     {"role": "user", "content": prompt}
