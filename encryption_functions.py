@@ -1,8 +1,8 @@
 ### Importing necessary libraries and functions from functions.py files
 from cryptography.fernet import Fernet
 
-
-f = Fernet(b'-QHh2oT11yzxRv_vHz8Ev2pJzOW3cAV1q9ZVIj7T06c=') # Defining the key for encryption processing
+encryption_key = b''
+f = Fernet(encryption_key) # Defining the key for encryption processing
 
 ### Functions
 ## Security Functions
