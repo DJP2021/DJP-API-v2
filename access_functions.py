@@ -6,10 +6,10 @@ import string
 ### Connecting to Keys MySQL
 print("Connecting to the MySQL Database (Access)") # Debug Message
 access = mysql.connector.connect(
-  host="djp-industries-djpapi.d.aivencloud.com", # Connecting to the following Address
-  port=20164,				   # Connecting to the following Port
-  user="avnadmin",	   # Connecting with the following Username
-  password="AVNS_m2Nj-w9VIhMYMoQmeJu", # Connecting with the following Password
+  host="", # Connecting to the following Address
+  port=,				   # Connecting to the following Port
+  user="",	   # Connecting with the following Username
+  password="", # Connecting with the following Password
   database="defaultdb"			   # Connecting to the following Database
 )
 mycursor = access.cursor(buffered=True) # Defining the Cursor the execute MySQL commands
