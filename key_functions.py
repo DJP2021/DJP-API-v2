@@ -9,10 +9,10 @@ import string
 ### Connecting to Keys MySQL
 print("Estabilishing a MySQL Connection (Keys)") # Debug Message
 keys = mysql.connector.connect(
-  host="djp-industries-djpapi.d.aivencloud.com", # Connecting to the following Address
-  port=20164,				   # Connecting to the following Port
-  user="avnadmin",	   # Connecting with the following Username
-  password="AVNS_m2Nj-w9VIhMYMoQmeJu", # Connecting with the following Password
+  host="", # Connecting to the following Address
+  port=12345,				   # Connecting to the following Port
+  user="",	   # Connecting with the following Username
+  password="", # Connecting with the following Password
   database="defaultdb"			   # Connecting to the following Database
 )
 print("Successfully estabilished MySQL Connection (Keys)") # Debug Message
