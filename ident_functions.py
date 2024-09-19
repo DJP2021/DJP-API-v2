@@ -9,7 +9,7 @@ import encryption_functions as encrypt
 ### Connecting to Customer MySQL
 customers = mysql.connector.connect(
   host="", # Connecting to the following Address
-  port="",				   # Connecting to the following Port
+  port=12345,				   # Connecting to the following Port
   user="",	   # Connecting with the following Username
   password="", # Connecting with the following Password
   database="defaultdb"			   # Connecting to the following Database
