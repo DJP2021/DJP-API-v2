@@ -7,8 +7,8 @@ import datetime
 ### SMTP details
 smtp = smtplib.SMTP('smtp-mail.outlook.com', 587)
 
-from_addr = "djpai@outlook.de"
-password = "#Kennwort011"
+from_addr = ""
+password = ""
 smtp.ehlo()
 smtp.starttls()
 smtp.login(from_addr, password)
